@@ -91,8 +91,8 @@ app.post('/api/candidates', ({ body }, res) => {
       message: 'success',
       data: body,
       id: this.lastID
+    });
   });
-});
 });
 
 // Default response for any other requests(Not Found) Catch all
